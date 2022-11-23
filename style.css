@@ -1,0 +1,131 @@
+:root{
+--SoftRed: hsl(7, 99%, 70%);
+--Yellow: hsl(51, 100%, 49%);
+--DarkDesaturatedCyan : hsl(167, 40%, 24%);
+--DarkBlue: hsl(198, 62%, 26%);
+--DarkModerateCyan: hsl(168, 34%, 41%);
+--VeryDarkDesaturatedBlue: hsl(212, 27%, 19%);
+--VeryDarkGrayishBlue: hsl(213, 9%, 39%);
+--DarkGrayishBlue: hsl(232, 10%, 55%);
+--GrayishBlue: hsl(210, 4%, 67%);
+--White: hsl(0, 0%, 100%);
+}
+
+*{  margin: 0;
+    box-sizing: border-box;
+}
+.graphic{
+    color: var(--DarkDesaturatedCyan);
+}
+.phography{
+    color: var(--DarkBlue);
+}
+header{
+    background-image: url('images/mobile/image-header.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:local;
+    background-position:bottom;
+    aspect-ratio: 750/1076;
+    max-width: 750px;
+    max-height: 1076px;
+}
+@media screen and (min-width:481px) {
+    header{
+    background-image: url('images/desktop/image-header.jpg');   
+    aspect-ratio: 2880/1600;
+    max-width: 2880px;
+    max-height: 1600px;
+
+    }
+    
+}
+.feed{
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.feedItem{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    aspect-ratio: 1;
+    display: flex;
+    flex-direction: column;
+}
+.text{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+}
+.text h3 .ContainingText h3{
+    margin: 1rem 7rem;
+    text-align: center;
+}
+.text p,.ContainingText p{
+    margin: 0 .75rem;
+    text-align: center;
+    line-height: 1.5rem;
+}
+.text a{
+    text-align:center;
+    display: block;
+    margin: 1rem;
+    text-decoration: none;
+}
+
+.ContainingText{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:end;
+    padding-bottom: 8rem;
+    aspect-ratio: 750/1200;
+}
+
+.Testimonials{
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.Testimonials h3{
+    margin-top: 2rem;
+}
+.testCmpnt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.testCmpnt p{
+    margin: 2rem;
+    text-align: center;
+}
+.testImg{
+    margin-top: 2rem;
+    display: flex;
+}
+.testImg img{
+    border-radius: 50%;
+    aspect-ratio: 1;
+    width: 5rem;
+}
+
+.related img{
+ display: flex;
+ aspect-ratio: 1;
+ max-width: 50vw;
+}
+.related{
+    margin:2rem 0;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+}
+footer{
+    color: var(--DarkModerateCyan);
+    background-color: ;
+}
