@@ -391,6 +391,7 @@ footer{
     align-items: center;
     padding:2rem 0 ;
     font-family: 'Barlow', sans-serif;
+    min-height: 50vh;
 }
 footer ul{
     margin: 0;
