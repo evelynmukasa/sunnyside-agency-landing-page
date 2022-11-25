@@ -343,7 +343,7 @@ header nav ul li a {
         grid-template-columns: repeat(3,1fr);
         margin: 8rem 0;
     } 
-    .Testimonials h3:first-child{
+    .Testimonials h2{
         margin: 0 0 3rem 0;
         grid-column:1/-1;
         grid-row:1;
