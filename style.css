@@ -302,7 +302,9 @@ header nav ul li a {
     color: var(--VeryDarkDesaturatedBlue);
     font-family: 'Fraunces', serif;
 }
-.Testimonials h3:first-child{
+.Testimonials h2{
+    margin-top: 2rem;
+    font-family: 'Fraunces', serif;
     text-transform: uppercase;
     color: var(--GrayishBlue);
     letter-spacing: .25rem;
