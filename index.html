@@ -7,20 +7,20 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Sunnyside agency landing page</title>
-
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
 
   <link rel="stylesheet" href="style.css">
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
     <nav>
       <a href="" class="logo"><img src="images/logo.svg" alt=""></a>
-      <ul>
+      <button class="barIcon" id="humburger"><img src="images/icon-hamburger.svg" alt="menu"></button>
+      <ul id="navMenu">
+        <li id="close"><img src="images/blackhumberger.svg" alt="menu"></li>
         <li><a href="">About</a></li>
         <li><a href="">Services</a></li>
         <li><a href="">Projects</a></li>
@@ -28,31 +28,32 @@
       </ul>
     </nav>
     <h1>We are creatives</h1>
+    <img src="images/icon-arrow-down.svg" class="arrowDown" alt="arrow">
   </header>
   <main>
     <div class="feed">
       
-      <div class="feedItem photo" style="background-image:url('images/mobile/image-transform.jpg');">
+      <div class="feedItem photo">
       </div>
       <div class="feedItem text">
-        <h3>Transform your brand</h3>
+        <h1>Transform your brand</h1>
         <p>We are a full-service creative agency specializing in helping brands grow fast. 
           Engage your clients through compelling visuals that do most of the marketing for you.</p>
          <a href="" class="learnMore">Learn more</a>
       </div>
-      <div class="feedItem photo" style="background-image:url('images/mobile/image-stand-out.jpg');">
+      <div class="feedItem photo">
       </div>
       <div class="feedItem text">
-        <h3>Stand out to the right audience</h3>
+        <h1>Stand out to the right audience</h1>
         <p>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. </p>
         <a href="" class="learnMore">Learn More</a>
       </div>
-      <div class="ContainingText graphic" style="background-image:url('images/mobile/image-graphic-design.jpg') ;">
-        <h3>Graphic design</h3>
+      <div class="ContainingText graphic">
+        <h1>Graphic design</h1>
         <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
       </div>
-      <div class="ContainingText" style="background-image:url('images/mobile/image-photography.jpg');">
-        <h3>Photography</h3>
+      <div class="ContainingText photography">
+        <h1>Photography</h1>
         <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
       </div>
     </div>
@@ -109,6 +110,9 @@
       Coded by <a href="#">Your Name Here</a>.
     </div>
   </footer>
-  
+
+
+  <script src="main.js"></script>
 </body>
+
 </html>
