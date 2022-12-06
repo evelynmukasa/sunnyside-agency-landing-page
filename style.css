@@ -197,14 +197,13 @@ header nav ul li a {
 
 .text{
     display: flex;
-    align-items:center ;
     justify-content: center;
     font-family: 'Barlow',sans-serif;
     color: var(--GrayishBlue);
 }
 .text h1{
-    margin: 1rem 3rem;
-    text-align: center;
+    margin: 1rem 1.9rem;
+    text-align: left;
     font-family: 'Fraunces',serif;
     color:var(--VeryDarkDesaturatedBlue);
     font-weight: 900;
@@ -212,13 +211,14 @@ header nav ul li a {
 }
 .text p{
     margin: 0 1.9rem;
-    text-align: center;
+    text-align:left;
     line-height: 2rem;
 }
 .text a{
     text-align:center;
-    display: block;
-    margin: 1rem;
+    display: inline-block;
+    width: 7.7rem;
+    margin: 2rem;
     color:var(--VeryDarkDesaturatedBlue);
     text-transform: uppercase;
     font-family: 'Fraunces',serif;
